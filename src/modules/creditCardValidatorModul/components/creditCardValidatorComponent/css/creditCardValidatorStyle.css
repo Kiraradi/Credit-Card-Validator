@@ -1,0 +1,81 @@
+
+.block-validator {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.credit-card-icons {
+    display: flex;
+    gap: 5px;
+}
+
+.credit-card-item {
+    max-width: 60px;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    border: 2px solid rgb(92, 92, 92);
+    position: relative;
+}
+
+.visa {
+    background-image: url(../img/visa-icon.png);
+}
+
+.masterCart {
+    background-image: url(../img/mastercard_old_payment_method_icon_142751.png);
+}
+
+.jcb {
+    background-image: url(../img/JCB_icon-icons.com_60552.png);
+    background-size: 35px;
+}
+
+.discover {
+    background-image: url(../img/discover_payment_method_icon_142757.png);
+}
+
+.americanExpress {
+    background-image: url(../img/8365-american-express_102492.png);
+}
+
+.mir {
+    background-image: url(../img/mir-icon.png);
+}
+
+.form-validator {
+    display: flex;
+    gap: 10px;
+}
+
+.form-validator__input {
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(92, 92, 92);
+}
+
+.form-validator__button {
+    background-color: rgb(13, 143, 13);
+    color: #ffff;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.darkbackgroung::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.7;
+    z-index: 1;
+}
